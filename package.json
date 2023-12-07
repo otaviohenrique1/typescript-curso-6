@@ -4,7 +4,8 @@
   "description": "Projeto feito no curso de 'TypeScript o paradigma funcional no front-end' da Alura.",
   "main": "script-crud.js",
   "scripts": {
-    "server": "npx live-server --port=5500 --open=dist",
+    "server": "npx live-server --port=5500",
+    "server2": "npx live-server --port=5500 --open=dist",
     "watch": "npx tsc -w",
     "start": "concurrently \"npm run watch\" \"npm run server\""
   },
