@@ -1,0 +1,19 @@
+{
+  "name": "typescript-curso-6",
+  "version": "1.0.0",
+  "description": "Projeto feito no curso de 'TypeScript o paradigma funcional no front-end' da Alura.",
+  "main": "script-crud.js",
+  "scripts": {
+    "server": "npx live-server --port=5500 --open=dist",
+    "watch": "npx tsc -w",
+    "start": "concurrently \"npm run watch\" \"npm run server\""
+  },
+  "keywords": [],
+  "author": "Otavio Henrique de Lima e Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "live-server": "^1.2.2",
+    "typescript": "^5.3.2"
+  }
+}
